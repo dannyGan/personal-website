@@ -1,4 +1,4 @@
-[danny](https://www.figma.com/file/lXsow9Br29ZpajgwXpoMke/HOME?node-id=1%3A2)
+[Danny](https://www.figma.com/file/lXsow9Br29ZpajgwXpoMke/HOME?node-id=1%3A2)
 
 ## Features
 
