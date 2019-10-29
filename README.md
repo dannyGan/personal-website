@@ -4,11 +4,12 @@
 
 - Home to look the lastest updates
 - About to read more about the person
-- Blog to read writings by  the person
+- Blog to read writings by the person
 - Contact to communicate with the person
 
 ## Screenshots
-![Home](/home/danny/Desktop/personal-website/images/pw1.png)
-![Contact](/home/danny/Desktop/personal-website/images/pw2.png)
-![About](/home/danny/Desktop/personal-website/images/pw3.png)
-![Skills](/home/danny/Desktop/personal-website/images/pw4.png)
+
+![Home](https://github.com/dannyGan/personal-website/blob/master/images/pw1.png)
+![Contact](https://github.com/dannyGan/personal-website/blob/master/images/pw2.png)
+![About](https://github.com/dannyGan/personal-website/blob/master/images/pw3.png)
+![Skills](https://github.com/dannyGan/personal-website/blob/master/images/pw4.png)
