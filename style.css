@@ -1,0 +1,155 @@
+body,
+html {
+  /* height: 1024px;
+  width: 1440px; */
+  margin: 0px;
+}
+
+.eng-image {
+  background-image: url("/home/danny/Desktop/personal-website/images/engineering.jpg");
+  /* height: 1024px;
+  width: 1440px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+header {
+  background-color: rgba(135, 191, 215, 0.35);
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+
+ul {
+  margin: 0px;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 75px;
+}
+
+#nama1 {
+  text-align: right;
+  padding: 20px;
+}
+
+#nama {
+  font-family: "Montserrat", sans-serif;
+  font-size: 75px;
+  margin-top: 10px;
+  margin-left: 0px;
+  position: absolute;
+  box-sizing: border-box;
+  height: 150px;
+  width: 200px;
+}
+
+/* 
+.line1 {
+  height: 80px;
+  width: 210px;
+  margin-left: 145px;
+  margin-top: 252px;
+  font-size: 40px;
+}
+
+.line2 {
+    color: #FF5C00;
+    height: 80px;
+    width: 113px;
+    margin-left: 158px;
+    margin-top: 323px;
+    font-size: 60px;
+    position: ;
+} */
+
+main {
+  padding-left: 50px;
+  height: 500px;
+}
+
+#name-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first::before {
+  content: "I'm ";
+  color: orangered;
+}
+
+#u40px {
+  font-size: 40px;
+  margin-top: 150px;
+  margin-left: 275px;
+}
+
+#u60px {
+  font-size: 60px;
+  margin-top: -10px;
+  margin-left: 275px;
+}
+
+#u50px {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-left: 275px;
+}
+
+.button {
+  margin-left: 300px;
+}
+
+#button1 {
+  background-color: rgba(255, 92, 0, 0.75);
+  border: none;
+  padding: 20px 60px;
+}
+
+#button1:hover {
+  background-color: rgba(255, 92, 0, 0.5);
+  transition: all 0.5s linear 0.1s;
+}
+
+#button2 {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  padding: 20px 60px;
+}
+
+#button2:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: all 0.5s linear 0.1s;
+}
+
+footer {
+  background-color: rgba(135, 191, 215, 0.35);
+  position: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 50px;
+  margin-top: 324px;
+}
+
+.tmfooter {
+  text-align: center;
+  font-size: 35px;
+}
+
+@media (max-width: 500px) {
+  #nama1,
+  #nama {
+    font-size: 70px;
+  }
+}
