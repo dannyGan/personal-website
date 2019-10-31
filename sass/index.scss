@@ -1,0 +1,36 @@
+@import "variables";
+@import "mixin";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  @include settings;
+}
+
+body {
+  @include background-image;
+  @include settings;
+}
+
+header {
+  @include format-header();
+}
+
+main {
+  @include main-content();
+}
+
+#set-footer {
+  main {
+    flex: 1;
+  }
+  display: flex;
+  flex-direction: column;
+  height: 89vh;
+}
+
+footer {
+  @include footer-content();
+}

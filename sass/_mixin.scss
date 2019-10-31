@@ -1,0 +1,99 @@
+@mixin format-header() {
+  background-color: rgba(135, 191, 215, 0.35);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  li {
+    display: inline-block;
+    a {
+      text-decoration: none;
+    }
+    #nama {
+      font-size: $normal-size;
+      color: $black;
+      padding: $padding-normal;
+    }
+    #nama1 {
+      font-size: $normal-size;
+      color: $orange;
+      padding: $padding-normal;
+    }
+  }
+}
+
+@mixin background-image() {
+  position: absolute;
+  background-image: url("../images/fabric_texture_white_150101_3840x2160.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin settings() {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+@mixin main-content() {
+  padding-top: 100px;
+  padding-left: 450px;
+  #name-content {
+    .first::before {
+      content: "I'm ";
+      color: orangered;
+    }
+    #name-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    #u40px {
+      font-size: 40px;
+      padding-top: 30px;
+    }
+    #u60px {
+      font-size: 60px;
+      margin: 0px;
+    }
+    #u50px {
+      font-size: 40px;
+      margin-top: 0px;
+    }
+  }
+  .button {
+    #button1 {
+      background-color: rgba(255, 92, 0, 0.75);
+      border: none;
+      padding: 20px 60px;
+    }
+
+    #button1:hover {
+      background-color: rgba(255, 92, 0, 0.5);
+      transition: all 0.5s linear 0.1s;
+    }
+
+    #button2 {
+      background-color: rgba(0, 0, 0, 0.4);
+      border: none;
+      padding: 20px 60px;
+    }
+
+    #button2:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+      transition: all 0.5s linear 0.1s;
+    }
+  }
+}
+
+@mixin footer-content() {
+  background-color: rgba(135, 191, 215, 0.35);
+  position: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50px;
+  margin: 0;
+  .tmfooter {
+    text-align: center;
+  }
+}
